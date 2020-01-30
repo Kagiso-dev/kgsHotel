@@ -10,6 +10,7 @@ import { OffersComponent } from './offers/offers.component';
 import { AuthComponent } from './auth/auth.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
     { path: 'accomodation',         component: AccomodationComponent},
@@ -20,7 +21,8 @@ const appRoutes: Routes = [
     { path: 'offers',               component: OffersComponent},
     { path: 'auth',                 component: AuthComponent},
     { path: 'singin',               component: SigninComponent},
-    { path: 'signup',               component: SignupComponent}
+    { path: 'signup',               component: SignupComponent},
+    { path: '',                     component: HomeComponent}
 ];
 
 @NgModule({
